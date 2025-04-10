@@ -1,0 +1,3 @@
+name: NexusClans
+version: '${project.version}'
+main: dev.nexus.nexusclans.NexusClans
