@@ -1,4 +1,7 @@
 package dev.nexus.nexusclans.storage;
 
-public class StorageHandler {
+public interface StorageHandler {
+    void connect();
+    void disconnect();
 }
+

@@ -1,4 +1,15 @@
 package dev.nexus.nexusclans.storage.impl;
 
-public class SQLiteStorage {
+import dev.nexus.nexusclans.storage.StorageHandler;
+
+public class SQLiteStorage implements StorageHandler {
+    @Override
+    public void connect() {
+
+    }
+
+    @Override
+    public void disconnect() {
+
+    }
 }
